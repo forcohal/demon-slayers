@@ -1,0 +1,104 @@
+
+@keyframes heading {
+    from{ 
+        opacity: 0;
+        transform:translateY(-400px);
+
+    }
+    to{
+        opacity: 1;
+        transform:translateY(-250px);
+
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(400px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.zen, .tan, .ino {
+    margin: auto;
+    padding: 30px;
+    background-size: cover;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.heading {
+    position: fixed;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 6.5em;
+    background-image:url('OnText2.jpg') ;
+    filter: drop-shadow(0 0 0.75rem rgb(76, 72, 73));
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+    animation: heading  2s ease-in;
+    transform: translateY(-250px);
+    animation: heading 1s ease-out
+}
+
+body {
+    background-image: url('bg5.jpg');
+    padding: 0;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.zen{
+    margin: auto;
+    padding: 30px;
+    border: 5px rgb(124, 105, 105);
+    background-image: url("zenitsu_img.jpg") ;
+    background-size: cover;
+    animation-name: SlideInRight;
+}
+
+#zenid{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+.tan{
+    margin: auto;
+    padding: 30px;
+    background-image: url("tanjiro_img.jpg");
+    background-size: cover;
+
+}
+
+#tanid{
+    color:rgb(255, 255, 255) ;
+}
+
+.ino{
+    margin: auto;
+    border: 50px,50px,50px,50px, black;
+    background-image: url("inosuke_img.jpg");
+    background-size:cover;
+    padding: 20px;
+   
+}
+#inoid{
+    color: rgb(255, 255, 255);
+}
+
