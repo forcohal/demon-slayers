@@ -12,24 +12,8 @@
     }
 }
 
-@keyframes slideInRight {
-    from {
-        opacity: 0;
-        transform: translateX(400px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
 
-.zen, .tan, .ino {
-    margin: auto;
-    padding: 30px;
-    background-size: cover;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-}
+
 
 .heading {
     position: fixed;
